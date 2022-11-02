@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="all.min.css">
     <link href="style.css" rel="stylesheet" />
 
     <title>Stay Connected</title>
@@ -112,7 +112,7 @@
             </div>
         </section>
         <section class="section-plan-cards">
-            <h2 class="heading__primary">
+            <h2 class="heading__primary heading-2">
                 exciting plans for your taste
             </h2>
             <div class="row">
@@ -227,7 +227,7 @@
             </div>
         </section>
         <section class="section-feedback">
-            <h2 class="heading__primary">
+            <h2 class="heading__primary heading-3">
                 what people think about us
             </h2>
             <div class="row">
@@ -283,21 +283,22 @@
                 <source src="space.mp4" type="video/mp4">
             </video>
             <div class="form">
-                <img class="form__image" src="network-connection.jpg">
-                <h2 class="heading__primary form-title">
-                    fill the form to get your sim card
-                </h2>
-                <div class="form__input form1">
-                    <input class="form__input--text" type="text" required>
-                    <label class="form__input--lable" for="">Full Name</label>
-                    <span class="form__input--line"></span>
+                <div class="form-container">
+                    <h3 class="heading__primary heading-4">
+                        buy a sim card
+                    </h3>
+                    <div class="form__input form-1">
+                        <input class="form__input--text" id="fullname" type="text" required>
+                        <label class="form__input--lable" for="fullname">Full Name</label>
+                        <span class="form__input--line"></span>
+                    </div>
+                    <div class="form__input">
+                        <input class="form__input--text form-2" id="email" type="email" required>
+                        <label class="form__input--lable" for="email">Email</label>
+                        <span class="form__input--line"></span>
+                    </div>
                 </div>
-                <div class="form__input">
-                    <input class="form__input--text" type="email" required>
-                    <label class="form__input--lable" for="">Email</label>
-                    <span class="form__input--line"></span>
-                </div>
-                <div class="btn-flip">
+                <div class="btn-flip btn-2">
                     <a href="#" class="btn-flip__link">
                         <div class="btn-flip__front">REGISTER</div>
                         <div class="btn-flip__back">BUY</div>
@@ -306,7 +307,7 @@
             </div>
         </section>
         <footer class="footer">
-            <div class="row">
+            <div class="row footer__row">
                 <div class="col-1-of-2">
                     <ul class="footer__nav">
                         <li><a href="#">Company</a></li>
@@ -341,4 +342,3 @@
     </main>
 </body>
 </html>
-
